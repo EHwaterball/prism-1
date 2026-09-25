@@ -14,17 +14,17 @@ const formula = [
 const moments = [
   {
     title: "HYROX-STYLE INTENSITY",
-    image: "https://prism-performance-energy.iannkiim.chatgpt.site/stock/sled-push.jpg",
+    image: "/stock/sled-push.jpg",
     alt: "Athlete pushing a weighted sled in an indoor training space",
   },
   {
     title: "FUNCTIONAL TRAINING",
-    image: "https://prism-performance-energy.iannkiim.chatgpt.site/stock/sled-training.jpg",
+    image: "/stock/sled-training.jpg",
     alt: "Athlete driving a weighted sled across gym turf",
   },
   {
     title: "LONG-DAY ENDURANCE",
-    image: "https://prism-performance-energy.iannkiim.chatgpt.site/stock/trail-runner.jpg",
+    image: "/stock/trail-runner.jpg",
     alt: "Trail runner moving through a forest path",
   },
 ];
@@ -127,7 +127,7 @@ export default function Home() {
           <motion.div className="spectral-ring" style={{ y: heroY }} />
           <motion.div className="can-wrap" style={{ y: heroY, rotate: heroRotate }}>
             <Image
-              src="https://prism-performance-energy.iannkiim.chatgpt.site/assets/prism-spectrum-can.png"
+              src="/assets/prism-spectrum-can.jpg"
               alt=""
               width={964}
               height={1632}
@@ -194,7 +194,7 @@ export default function Home() {
       <section className="product-story section-pad" aria-labelledby="product-title">
         <div className="sticky-product">
           <Image
-            src="https://prism-performance-energy.iannkiim.chatgpt.site/assets/prism-product-collage.png"
+            src="/assets/prism-product-collage.jpg"
             alt="PRISM cans photographed with condensation and flavor variations"
             width={1536}
             height={1024}
@@ -347,7 +347,7 @@ export default function Home() {
         </motion.div>
         <motion.div className="closing-cans" whileHover={{ scale: 1.025, rotate: -0.5 }}>
           <Image
-            src="https://prism-performance-energy.iannkiim.chatgpt.site/assets/prism-flavors.png"
+            src="/assets/prism-flavors.jpg"
             alt="Four PRISM flavor cans: lemon lime, mango, berry, and blue raspberry"
             width={1536}
             height={1024}
